@@ -27,7 +27,9 @@ var AppController = function () {
 
     // Define a different server URL here if desire.
     this._PUSH_SERVER_URL = '';
-    this._API_KEY = 'AIzaSyBBh4ddPa96rQQNxqiq_qQj7sq1JdsNQUQ';
+    //this._API_KEY = 'AIzaSyBBh4ddPa96rQQNxqiq_qQj7sq1JdsNQUQ';
+    this._API_KEY = 'AIzaSyDq9wJrWLoVA_j9rZeX14OjCablP26vwjk';
+
 
     // This div contains the UI for CURL commands to trigger a push
     this._sendPushOptions = document.querySelector('.js-send-push-options');

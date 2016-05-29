@@ -15,7 +15,7 @@ self.addEventListener('push', function (event) {
     icon: './images/claro_192x192.png',
     tag: 'simple-push-demo-notification',
     data: {
-      url: 'http://www.google.com'
+      url: 'http://www.claro.com/paises/'
     }
   };
 

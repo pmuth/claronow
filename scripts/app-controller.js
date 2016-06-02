@@ -271,6 +271,7 @@ var AppController = function () {
       var subscriptionId = endpointSections[endpointSections.length - 1];
       var msgBody = {
         registration_ids: [subscriptionId] // eslint-disable-line camelcase
+        console.log(registration_ids)
       };
 
       if (encryptedPayload) {

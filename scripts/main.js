@@ -268,6 +268,7 @@ var AppController = function () {
 
       var endpointSections = subscription.endpoint.split('/');
       var subscriptionId = endpointSections[endpointSections.length - 1];
+      console.log(subscriptionId)
       var msgBody = {
         registration_ids: [subscriptionId] // eslint-disable-line camelcase
       };
